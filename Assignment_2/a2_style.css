@@ -1,0 +1,124 @@
+body{
+    height: 100vh;
+    max-width: auto;
+    margin: 0;
+    padding: 0;
+}
+header > ul{
+    background-color:rgb(67, 114, 133);
+    margin: 0;
+    padding-left: 0;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+header > ul > li{
+    display: inline;
+}
+
+header > ul > li > a{
+    margin-left: 2%;
+    text-decoration: none;  
+    color: whitesmoke;
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+}
+
+.pg_purpose{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Libre Baskerville', serif;
+}
+.pg_purpose h1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-100%);
+}
+.pg_purpose h4{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    transform: translateY(-100%);
+}
+
+footer > h1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color:rgb(67, 114, 133);
+    color: whitesmoke;
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+header > h3{
+    text-align: center;
+    font-family: 'Halant', serif;
+    font-size: 30px;
+    color: #1c254a;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+section > div{
+    display: grid;
+    background-color: #efeeea;
+    margin: 0;
+    grid-template-rows: 75% 15% 10%;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.info{
+    display: block;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5vw;
+    margin-left: 5px;
+    padding: 0;
+    color: rgb(23, 28, 31);
+}
+
+.info p{
+    padding: 0;
+    margin: 0;
+}
+
+.booking{
+    display: grid;
+    border-radius: 10px;
+    background: #2185ad;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    height: 80%; 
+    align-items: center;
+}
+
+.booking a{
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    text-align: center;
+}
