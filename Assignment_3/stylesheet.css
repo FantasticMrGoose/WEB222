@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(245, 220, 190);
+    min-width: 500px;
+    max-width: auto;
+    margin: 1.5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    padding: 2%;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 5px solid;
+    border-color: steelblue;
+    border-radius: 10%;
+    
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive, serif;
+    font-size: 45px;
+    color: cornflowerblue;
+    margin-top: 0%;
+}
+
+#newMap {  
+    background-color: white;
+    color: cornflowerblue;
+    font-family: 'Kaushan Script', cursive, serif;
+    border: 3px cornflowerblue;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#newMap:hover{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+h2 {
+    color: steelblue;
+    font-family: 'Kaushan Script', cursive, serif;
+    text-align: center;
+}
+
+#icons {
+    display: grid;
+    padding: 0%;
+    grid-template-columns: repeat(6, 64px);
+    grid-template-rows: 64px;
+    margin-left: 30%;
+    margin-right: 30%;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-selected {
+    border: thick solid;
+    border-color: cornflowerblue;
+}
+
+section > button {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    background-color: unset;
+    cursor: pointer;
+}
+
+section > button > img {
+    border: 2px steelblue;
+    border-style: dashed;
+}
+section > div > img{
+    border: 0.5px steelblue;
+    pointer-events: none;
+}
+
+.map {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, 64px);
+    grid-template-rows: repeat(3, 64px);
+    column-gap: 0;
+    row-gap: 0;
+}
+
+.maptiles {
+    margin: 0;
+    height: 64px;
+    width: 64px;
+    background-color: white;
+    border: 2px steelblue;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+#yourmap{
+    color: rgb(14, 123, 160);
+    font-family: 'Permanent Marker', cursive, serif;
+    font-size: 30px;
+}
+
+.hidden {
+    display: none;
+}
