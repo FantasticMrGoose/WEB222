@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(231, 231, 231);
+    margin:0;
+    padding:0;
+    max-width: auto;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Otomanopee One', sans-serif;
+    color: skyblue;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+header > ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+header > ul > li{
+    display: inline;
+}
+
+header > ul > li > a{
+    text-decoration: none;  
+    color: rgb(73, 159, 199);
+    font-size: 18px;
+    margin: 5px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#search{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#searchbar{
+    display:inline;
+    width: 400px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 2px;
+    border-color: skyblue;
+    align-self: center;
+}
+
+#searchbtn{
+    display:inline;
+    width: 60px;
+    height: 35px;
+    background-color: skyblue;
+    color: snow;
+    font-family: 'Otomanopee One', sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#errmsg{
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    color: skyblue;
+}
+
+.videos { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    justify-items: center;
+}
+
+.vid{
+    display: grid;
+    margin: 0;
+    grid-template-rows: 60% 40%;
+    background-color: whitesmoke;
+    border: solid rgb(90, 182, 218);
+    border-width: 2px;
+    height: 50vh;
+    width: 50vh;
+ 
+}
+
+.image {
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.avatar {
+    display: inline;
+    text-align: left;
+    border-radius: 50%;
+    width: 25px;
+}
+
+.title{
+    display: inline-block;
+    color: rgb(68, 130, 151);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.userinfo {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: auto;
+}
+
+.userinfo > div > p{
+    margin: 3px;
+    margin-right: 15px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.vidinfo{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+
+.form {
+    
+    background-color: white;
+    width: 430px;
+    height: 420px;
+    align-self: center;
+    margin: 0 auto;
+    border-radius: 3%;
+
+    box-sizing: border-box;
+}
+
+.form > p{
+    padding-top: 10px;
+}
+
+div[class="form"] *{
+
+    margin-left: 2%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input{
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    width: 94%;
+    height: 25px;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"]{
+    margin: 0 auto;
+    padding: 0;
+    height: 40px;
+    width: 95%;
+    background-color: skyblue;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
